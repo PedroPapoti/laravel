@@ -12,8 +12,11 @@ class ProdutoController extends Controller
     public function index()
     {
         //
-    }
+     //  return view('site.empresa');
 
+     return view('news'); 
+    
+     }
     /**
      * Show the form for creating a new resource.
      */
